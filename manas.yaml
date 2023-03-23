@@ -1,8 +1,8 @@
 - name: playbook1
   hosts: localhost
   tasks:
-    - name: create user
-      user:
-        name: manas
+    - name: install package
+      apt:
+        name: httpd
         state: present
 
