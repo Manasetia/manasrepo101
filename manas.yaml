@@ -6,13 +6,3 @@
         name: manas
         state: present
 
-    - name: install package
-      apt:
-        name: httpd
-        state: present
-
-    - name: start the service
-      service:
-        name: httpd
-        state: started
-        enable: true
