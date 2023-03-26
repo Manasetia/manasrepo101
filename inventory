@@ -1,4 +1,8 @@
-{privillege_esclation}
+[defaults]
+inventory=localhost
+
+
+[privillege_esclation]
 become=true
 become_method=sudo
 become_user=root
